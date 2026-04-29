@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Instrument Sans", sans-serif;
+  color: "#171717";
+}
+
+.button {
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button.primary {
+  background-color: #2563eb;
+  color: #fafafa;
+}
+
+.button:hover.primary {
+  background-color: #1d4ed8;
+}
